@@ -1,1 +1,2 @@
-# microverse-trials-II
+# Microverse Trials II
+Microverse Trials HTML/CSS Project [Product Landing Page](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page/) with partner Isaac Castro.
