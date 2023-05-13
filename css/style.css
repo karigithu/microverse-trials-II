@@ -1,0 +1,97 @@
+/**
+* @name IDs - Microverse Trials II - Product Landing Page
+* @author David Karigithu & Isaac Castro
+*/
+
+html, body {
+	display: block;
+	font-size: 14px/12px;
+	color: white;
+	background: darkblue;
+}
+header#header {
+	display: block;
+	position: static;
+	top: 0;
+	width: auto;
+	height: 35px;
+	padding: 7.5px 15px;
+}
+header#header img#header-img {
+	display: block;
+	position: relative;
+	left: 0;
+	float: left;
+}
+header#header nav#nav-bar {
+	display: block;
+	position: relative;
+	right: 0;
+	height: 35px;
+	float: right;
+}
+header#header nav#nav-bar ul {
+	display: block;
+	height: 35px;
+}
+header#header nav#nav-bar ul li {
+	display: inline-block;
+	margin: right 7.5px;
+}
+header#header nav#nav-bar ul li a {
+	color: #F2F1EF;
+}
+main {
+	display: block;
+	width: 75%;
+	margin: 15px auto;
+}
+main section {
+	clear: right;
+}
+main section#features div {
+	text-align: center;
+	display: block;
+	width: 75%;
+	margin: 50px auto;
+}
+main section#features div h2 img {
+	margin-right: 25px;
+}
+main section#product-video > *,
+main section#newsletter > * {
+	display: block;
+	width: 50%;
+	margin: 50px auto;
+}
+main section#newsletter > form#form {
+	display: flex;
+	width: 100%;
+}
+main section#newsletter > form#form .form-group {
+	display: flex;
+	margin: 50px auto;
+	text-align: center;
+	width: 100%;
+}
+main section#newsletter > form#form .form-group input {
+	border: none;
+	border-radius: 0;
+	padding: 7.5px;
+	box-shadow: inset 1px 1px 4px royalblue;
+}
+main section#newsletter > form#form .form-group input[type="submit"] {
+	background: skyblue;
+	color: #F2F1EF;
+}
+main section#newsletter > form#form .form-group input[type="email"]:focus,
+main section#newsletter > form#form .form-group input[type="email"]:focus-visible {
+	outline: none;
+	box-shadow: 0px 0px 10px skyblue;
+}
+main section#newsletter > form#form .form-group input[type="email"] {
+	display: block;
+	width: calc(80% - 200px);
+	float: left;
+
+}
